@@ -1,9 +1,10 @@
 import ReactDOM from "react-dom"
-import HelloWorld from "./components/HelloWorld"
+/* App */
+import App from "./App"
 /* Styles & Sources */
 import "./index.css"
 
 ReactDOM.render(
-  <HelloWorld />,
+  <App />,
   document.getElementById("main")
 )
