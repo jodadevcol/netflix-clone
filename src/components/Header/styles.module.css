@@ -1,0 +1,35 @@
+.isHeaderWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  height: fit-content;
+  max-height: 3.75em;
+  padding-top: 1.375em;
+  z-index: 10;
+}
+
+.isHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  margin: 0 6%;
+}
+
+.isSvgLogo {
+  margin-right: auto;
+}
+
+a[class~="is-btn"] {
+  text-decoration: none;
+}
+
+.isBtnLogin {
+  padding: .25rem .5rem;
+  font-size: 0.9rem;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: .2em;
+  background-color: #e50914;
+}
