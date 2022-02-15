@@ -11,6 +11,11 @@ module.exports = {
   },
   resolve: {
     extensions: [".js", ".jsx"],
+    alias: {
+      "@components": path.resolve(__dirname, "src/components/"),
+      "@pages": path.resolve(__dirname, "src/pages/"),
+      "@images": path.resolve(__dirname, "src/assets/img/")
+    }
   },
   module: {
     rules: [
@@ -57,5 +62,12 @@ module.exports = {
     new webpack.ProvidePlugin({
       React: 'react'
     })
-  ]
+  ],
+  devServer: {
+    compress: true,
+    port: 4545,
+    client: {
+      reconnect: false,
+    }
+  }
 }
