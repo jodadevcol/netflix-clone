@@ -14,7 +14,9 @@ module.exports = {
     alias: {
       "@components": path.resolve(__dirname, "src/components/"),
       "@pages": path.resolve(__dirname, "src/pages/"),
-      "@images": path.resolve(__dirname, "src/assets/img/")
+      "@images": path.resolve(__dirname, "src/assets/img/"),
+      "@icons": path.resolve(__dirname, "src/components/Icons/"),
+      "@videos": path.resolve(__dirname, "src/assets/video/")
     }
   },
   module: {
@@ -48,6 +50,10 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(mp4|m4v)$/,
+        use: 'file-loader?name=videos/[name].[ext]'
+      }
     ]
   },
   plugins: [
