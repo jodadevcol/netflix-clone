@@ -5,8 +5,9 @@ import SectionWatchOn from "@components/Section/SectionWatchOn"
 import SectionDownloadWatch from "@components/Section/SectionDownloadWatch"
 import SectionWatchDevice from "@components/Section/SectionWatchDevice"
 import SectionProfileKids from "@components/Section/SectionProfileKids"
+import SectionFaq from "@components/Section/SectionFaq"
 /* Styles & Sources */
-import "./styles.css"
+import styles from "./styles.module.css"
 
 function Sections() {
   return (
@@ -29,6 +30,10 @@ function Sections() {
 
       <Section>
         <SectionProfileKids />
+      </Section>
+
+      <Section className={styles.isSectionFQA}>
+        <SectionFaq />
       </Section>
     </div>
   )
