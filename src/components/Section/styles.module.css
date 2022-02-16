@@ -208,3 +208,12 @@
   top: 32.5%;
   max-height: 47%;
 }
+/* Section FAQ */
+.isTextListFAQ {
+  width: 100%;
+  max-width: 815px;
+  margin: 1.45rem auto;
+}
+.isFormFQA {
+  padding: 0 5%;
+}
