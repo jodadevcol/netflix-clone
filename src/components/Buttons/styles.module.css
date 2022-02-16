@@ -1,0 +1,27 @@
+/* Button */
+.isBtnPrimary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  min-height: 40px;
+  margin: 0.4rem auto;
+  padding: 0 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #e50914;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+}
+.isBtnText {
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+}
+.isBtnIcon {
+  position: relative;
+  width: 0.82rem;
+  height: 0.82rem;
+  margin: 0 0 0 0.5rem;
+}
