@@ -1,5 +1,6 @@
 /* Components */
 import Header from "@components/Header"
+import Footer from "@components/Footer"
 /* Styles & Sources */
 import "./App.css"
 import Sections from "@components/Sections"
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Sections />
       </main>
+      <Footer />
     </div>
   )
 }
