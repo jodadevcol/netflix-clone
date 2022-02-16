@@ -9,8 +9,7 @@ function Header() {
 
         <span className={styles.isSvgLogo}>
           <Logo
-            width="auto"
-            height="1.5rem"
+            className={styles.isIconSvg}
             fill="#e50914"
           />
         </span>

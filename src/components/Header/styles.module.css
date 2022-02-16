@@ -20,6 +20,11 @@
   margin-right: auto;
 }
 
+.isIconSvg {
+  width: auto;
+  height: 1.6rem;
+}
+
 a[class~="is-btn"] {
   text-decoration: none;
 }
