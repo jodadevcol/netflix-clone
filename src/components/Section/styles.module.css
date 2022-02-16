@@ -1,0 +1,210 @@
+/* Section General */
+.isSectionCard {
+  position: relative;
+  height: fit-content;
+  margin-bottom: 0;
+  padding: 50px 5%;
+  color: #fff;
+  border-bottom: 8px solid #222;
+}
+.isCardText {
+  position: relative;
+  padding-top: 18px;
+  text-align: center;
+  z-index: 2;
+}
+.isTextTitle {
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+.isTextSubtitle {
+  margin: 1.4rem auto;
+  font-weight: 400;
+  font-size: 1.16rem;
+  line-height: 1.2;
+}
+/* Forms */
+.isForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.842rem;
+  text-align: center;
+}
+.isFormTitle {
+  padding: 0 5%;
+  font-weight: 400;
+  font-size: 1.16rem;
+  line-height: 1.2;
+}
+.isFormLockup {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+}
+.isLockupContainerPlacement {
+  position: relative;
+}
+.isPlacementInput {
+  width: 100%;
+  height: 3rem;
+  padding: 0.6rem 0.6rem 0;
+}
+.isPlacementLabel {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #818181;
+}
+.isPlacementPlaceholder {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+}
+.isLockupBox {
+  margin-top: 1rem;
+}
+.isIconBtn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  transform: scaleX(1);
+}
+/* Section Hero */
+.isCardBackground {
+  position: absolute;
+  top: -60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+.isBackgroundFigure {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.isFigureImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.isBackgroundGradient {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+}
+.isBackgroundGradient::before {
+  content: "";
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  background-image: linear-gradient(to bottom, #000 25%, rgba(0, 0, 0, 0));
+}
+/* Section Watch On */
+.isCardImg {
+  margin-top: 1rem;
+}
+.isImgAnimation {
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+.isAnimationImg {
+  position: relative;
+  max-width: 100%;
+  z-index: 10;
+}
+.isImgVideoAnimation {
+  position: absolute;
+  top: 47.5%;
+  left: 49.5%;
+  width: 100%;
+  height: 100%;
+  max-width: 72.5%;
+  max-height: 70%;
+  transform: translate(-50%, -50%);
+}
+.isAnimationInVideo {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: baseline;
+}
+/* Section Download Watch */
+.isAnimationDownload {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72%;
+  min-width: 15rem;
+  padding: 0.25em 0.65em;
+  margin: 0 auto;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 0.75rem;
+  background: #000;
+  box-shadow: 0 0 2em 0 #000;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+.isAnimationDownload::after {
+  content: "";
+  display: inline-block;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 3em;
+  height: 3em;
+  outline: 2px solid #000;
+  outline-offset: -2px;
+  background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif")
+    center center no-repeat;
+  /* background: url("../../assets/img/download-icon.gif") center center no-repeat; */
+  background-size: contain;
+}
+.isDownloadAnimationImg {
+  margin: 0 1rem 0 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.isImgInAnimation {
+  height: 3rem;
+}
+.isDownloadAnimationText {
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.3em 0;
+}
+.isTextAnimation0 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.isTextAnimation1 {
+  color: #0071eb;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+/* Section Watch Device */
+.isVideoWatchDevice {
+  top: 32.5%;
+  max-height: 47%;
+}
